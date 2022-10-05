@@ -25,7 +25,7 @@ from sklearn.linear_model  import Ridge,Lasso,RidgeCV, LassoCV, ElasticNet, Elas
 sns.set()
 ```
 
-2. [**Logistic Regression**](https://github.com/MohammadWasiq0786/iNeuron-Machine-Learming/tree/main/Logistic%20Regression)
+2. [**Logistic Regression :**](https://github.com/MohammadWasiq0786/iNeuron-Machine-Learming/tree/main/Logistic%20Regression)
 
 Here I have discussed as follows :
 * Theory of Logistic Regression
