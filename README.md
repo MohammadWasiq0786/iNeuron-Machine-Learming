@@ -1,5 +1,6 @@
 # iNeuron Machine Learming
 1. [**Linear Models :**](https://github.com/MohammadWasiq0786/iNeuron-Machine-Learming-/tree/main/Linear%20Models)
+
 Here I have discussed as follows :
 * Theory of Linear Models
 * Simple Linear Regression
@@ -24,17 +25,31 @@ from sklearn.linear_model  import Ridge,Lasso,RidgeCV, LassoCV, ElasticNet, Elas
 sns.set()
 ```
 
+2. [**Logistic Regression**](https://github.com/MohammadWasiq0786/iNeuron-Machine-Learming/tree/main/Logistic%20Regression)
 
+Here I have discussed as follows :
+* Theory of Logistic Regression
+* Logistic Regression Implementation
+* VIF (Variance Inflation Factor)
+* Multi-Collinearity
+* Ridge Regression
+* Lasso Regression
+* Accuracy 
+* Confusion Matrix 
+* ROC Curve 
+* ROC AUC Score
+
+Used Libraries : 
 ```PYTHON
 import pandas as pd 
 import numpy as np 
+import matplotlib.pyplot as plt
+import seaborn as sns
 from sklearn.preprocessing import StandardScaler 
 from sklearn.linear_model  import Ridge,Lasso,RidgeCV, LassoCV, ElasticNet, ElasticNetCV, LogisticRegression
 from sklearn.model_selection import train_test_split
 from statsmodels.stats.outliers_influence import variance_inflation_factor 
 from sklearn.metrics import accuracy_score, confusion_matrix, roc_curve, roc_auc_score
-import matplotlib.pyplot as plt
-import seaborn as sns
 import scikitplot as skl
 sns.set()
 ```
