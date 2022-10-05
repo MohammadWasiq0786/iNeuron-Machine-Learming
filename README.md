@@ -21,7 +21,7 @@ from sklearn.linear_model import LinearRegression
 import pickle
 import statsmodels.api as sm 
 import statsmodels.formula.api as smf
-from sklearn.linear_model  import Ridge,Lasso,RidgeCV, LassoCV, ElasticNet, ElasticNetCV, LinearRegression
+from sklearn.linear_model  import Ridge, Lasso, RidgeCV, LassoCV, ElasticNet, ElasticNetCV, LinearRegression
 sns.set()
 ```
 
@@ -45,9 +45,9 @@ import pandas as pd
 import numpy as np 
 import matplotlib.pyplot as plt
 import seaborn as sns
-from sklearn.preprocessing import StandardScaler 
-from sklearn.linear_model  import Ridge,Lasso,RidgeCV, LassoCV, ElasticNet, ElasticNetCV, LogisticRegression
 from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler 
+from sklearn.linear_model  import Ridge, Lasso, RidgeCV, LassoCV, ElasticNet, ElasticNetCV, LogisticRegression
 from statsmodels.stats.outliers_influence import variance_inflation_factor 
 from sklearn.metrics import accuracy_score, confusion_matrix, roc_curve, roc_auc_score
 import scikitplot as skl
