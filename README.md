@@ -7,6 +7,8 @@ Here I have discussed as follows :
 * Multi-Collinearity
 * Ridge Regression
 * Lasso Regression
+
+Used Libraries : 
 ```python
 import numpy as np 
 import pandas as pd 
